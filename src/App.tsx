@@ -8,7 +8,7 @@ function App() {
   return (
     <>
        <Box style={{ height: '300px', overflow: 'auto' }}>
-       <Document file='/production.pdf'>
+       <Document file='/product.pdf'>
         <Page pageNumber={1} />
       </Document>
     </Box>
